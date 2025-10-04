@@ -1,14 +1,20 @@
-# Python / venv
-venv/
-__pycache__/
-*.pyc
+# Ignore system files
+.DS_Store
+Thumbs.db
 
-# large/VM/installer files
-*.iso
-*.vdi
-*.vmdk
-*.zip
-
-# local/system files and logs
+# Ignore logs and temp files
 *.log
-*.env
+*.tmp
+*.swp
+
+# Ignore Python cache (if you use any Python scripts)
+__pycache__/
+*.py[cod]
+
+# Ignore Virtual Environment folder (if you use one)
+venv/
+env/
+
+# Ignore other OS-specific files
+*.bak
+*.old
